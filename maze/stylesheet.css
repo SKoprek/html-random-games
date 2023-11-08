@@ -1,0 +1,86 @@
+::-webkit-scrollbar { 
+    display: none; 
+}
+.g_page{
+    height: calc(100vh - 10px);
+}
+.g_div{
+    margin:5px;
+    display:block;
+    float:left;
+    border-radius: 5px;
+    height:250px;
+    width: 250px;
+    background-color:rgba(60,60,60,0.9);
+    overflow: hidden;
+
+}
+
+#g_play{
+    width: 200px;
+    height: 250px;
+    background-color:red;
+}
+#p_box{
+
+    display: block;
+    float:left;
+}
+.g_sol{
+    
+    font-weight: 900;
+    text-align: center;
+}
+/*  */
+.ps{
+    width: 10px
+}
+.p_max{
+    display: block;
+    float:left;
+    height: 400px;
+}
+/*  */
+.game_body{
+    background-color: black;
+    max-width: 700px;
+    max-height: 600px;
+}
+#f_window{
+    background-color: rgba(60,60,60,0.9);
+    margin-left: 15px; 
+    margin-top: 10px;
+}
+#game_box{
+    display:block;
+    margin-top: 10px;
+    margin-left: 15px;  
+    width: 670px;
+    background-color: white;
+    height:500px;
+    border-radius:5px;
+}
+.game_key_box{
+margin-top:20px;
+background-color: rgba(60,60,60,0.9);
+float:left;
+border-radius:5px;
+}
+.game_key{
+    border:2px;
+    border:solid;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: 900;
+    
+}
+#game_fon{
+    position:absolute;
+}
+#game_png{
+ 
+}
